@@ -19,30 +19,8 @@ jobs:
         run: npm ci
       - name: Update game list
         run: npm start
-      - name: Create release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: ncipollo/release-action@v1
         with:
-          tag_name: latest
-          # Release Date
-          release_name: Release latest
-          draft: true
-          prerelease: false
-      - name: Upload generated files to release
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./games.json
-          asset_name: games.json
-          asset_content_type: application/json
-      - name: Publish release
-        uses: eregon/publish-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          release_id: ${{ steps.create_release.outputs.id }}
+          artifacts: "games.json"
+          token: ${{ secrets.YOUR_GITHUB_TOKEN }}
       
