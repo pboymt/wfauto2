@@ -22,5 +22,5 @@ jobs:
       - uses: ncipollo/release-action@v1
         with:
           artifacts: "games.json"
-          token: ${{ secrets.YOUR_GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
       
