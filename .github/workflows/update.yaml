@@ -27,7 +27,7 @@ jobs:
         with:
           tag_name: latest
           # Release Date
-          release_name: Release ${{ github.event.inputs.release_date }}
+          release_name: Release latest
           draft: true
           prerelease: false
       - name: Upload generated files to release
