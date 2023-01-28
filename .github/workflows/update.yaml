@@ -19,10 +19,30 @@ jobs:
         run: npm ci
       - name: Update game list
         run: npm start
-      - uses: ncipollo/release-action@v1
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
-          commit: main
-          tag: latest
-          artifacts: "games.json"
-          token: ${{ secrets.GITHUB_TOKEN }}
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: "游戏列表"
+          draft: true
+          prerelease: false
+      - name: Upload release asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./games.json
+          asset_name: games.json
+          asset_content_type: application/json
+      - name: Publish release
+        uses: StuYarrow/publish-release@v1.1.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          id: ${{ steps.create_release.outputs.id }}
       
