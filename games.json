@@ -1,0 +1,283 @@
+{
+  "version": 1,
+  "date": "2023-01-28T13:44:23.931Z",
+  "games": [
+    {
+      "text": "八岐大蛇",
+      "children": [
+        {
+          "text": "高级",
+          "id": "orochi-high"
+        },
+        {
+          "text": "高级+",
+          "id": "orochi-highplus"
+        },
+        {
+          "text": "超级",
+          "id": "orochi-super"
+        }
+      ]
+    },
+    {
+      "text": "白虎",
+      "children": [
+        {
+          "text": "中级",
+          "id": "whitetail-medium"
+        },
+        {
+          "text": "高级",
+          "id": "whitetail-high"
+        },
+        {
+          "text": "高级+",
+          "id": "whitetail-highplus"
+        },
+        {
+          "text": "超级",
+          "id": "whitetail-super"
+        }
+      ]
+    },
+    {
+      "text": "寄居蟹船长",
+      "children": [
+        {
+          "text": "中级",
+          "id": "hermit-medium"
+        },
+        {
+          "text": "高级",
+          "id": "hermit-high"
+        },
+        {
+          "text": "高级+",
+          "id": "hermit-highplus"
+        },
+        {
+          "text": "超级",
+          "id": "hermit-super"
+        }
+      ]
+    },
+    {
+      "text": "管理者",
+      "children": [
+        {
+          "text": "中级",
+          "id": "admin-medium"
+        },
+        {
+          "text": "高级",
+          "id": "admin-high"
+        },
+        {
+          "text": "高级+",
+          "id": "admin-highplus"
+        },
+        {
+          "text": "超级",
+          "id": "admin-super"
+        }
+      ]
+    },
+    {
+      "text": "诅咒弧魔艾基尔",
+      "children": [
+        {
+          "text": "中级",
+          "id": "arch-medium"
+        },
+        {
+          "text": "高级",
+          "id": "arch-high"
+        },
+        {
+          "text": "高级+",
+          "id": "arch-highplus"
+        },
+        {
+          "text": "超级",
+          "id": "arch-super"
+        }
+      ]
+    },
+    {
+      "text": "废墟魔像",
+      "children": [
+        {
+          "text": "中级",
+          "id": "golem-medium"
+        },
+        {
+          "text": "高级",
+          "id": "golem-high"
+        },
+        {
+          "text": "高级+",
+          "id": "golem-highplus"
+        },
+        {
+          "text": "超级",
+          "id": "golem-super"
+        }
+      ]
+    },
+    {
+      "text": "不死王瑞西塔尔",
+      "children": [
+        {
+          "text": "中级",
+          "id": "regitare-medium"
+        },
+        {
+          "text": "高级",
+          "id": "regitare-high"
+        },
+        {
+          "text": "高级+",
+          "id": "regitare-highplus"
+        },
+        {
+          "text": "超级",
+          "id": "regitare-super"
+        }
+      ]
+    },
+    {
+      "text": "妖狐",
+      "children": [
+        {
+          "text": "中级",
+          "id": "fox-medium"
+        },
+        {
+          "text": "高级",
+          "id": "fox-high"
+        }
+      ]
+    },
+    {
+      "text": "Sec-5200Li",
+      "children": [
+        {
+          "text": "中级",
+          "id": "sec-medium"
+        },
+        {
+          "text": "高级",
+          "id": "sec-high"
+        }
+      ]
+    },
+    {
+      "text": "风将獠牙骑士",
+      "children": [
+        {
+          "text": "中级",
+          "id": "aero-medium"
+        },
+        {
+          "text": "高级",
+          "id": "aero-high"
+        }
+      ]
+    },
+    {
+      "text": "潮汐巨妖",
+      "children": [
+        {
+          "text": "中级",
+          "id": "tidal-medium"
+        },
+        {
+          "text": "高级",
+          "id": "tidal-high"
+        }
+      ]
+    },
+    {
+      "text": "废墟守卫·火",
+      "children": [
+        {
+          "text": "中级",
+          "id": "ignis-medium"
+        },
+        {
+          "text": "高级",
+          "id": "ignis-high"
+        }
+      ]
+    },
+    {
+      "text": "雷霆树妖",
+      "children": [
+        {
+          "text": "中级",
+          "id": "lightning-medium"
+        },
+        {
+          "text": "高级",
+          "id": "lightning-high"
+        }
+      ]
+    },
+    {
+      "text": "维·索拉斯",
+      "children": [
+        {
+          "text": "初级",
+          "id": "solas-normal"
+        }
+      ]
+    },
+    {
+      "text": "伊尔昂斯拉",
+      "children": [
+        {
+          "text": "中级",
+          "id": "iruudoresutyoukyuu-medium"
+        },
+        {
+          "text": "高级",
+          "id": "iruudoresutyoukyuu-high"
+        },
+        {
+          "text": "高级+",
+          "id": "iruudoresutyoukyuu-highplus"
+        },
+        {
+          "text": "超级",
+          "id": "iruudoresutyoukyuu-super"
+        }
+      ]
+    },
+    {
+      "text": "迷失遗忘者",
+      "children": [
+        {
+          "text": "高级",
+          "id": "cair-oblivion-high"
+        },
+        {
+          "text": "超级",
+          "id": "cair-oblivion-super"
+        }
+      ]
+    },
+    {
+      "text": "步兵人偶",
+      "children": [
+        {
+          "text": "高级",
+          "id": "poppet-sergeant-high"
+        },
+        {
+          "text": "高级+",
+          "id": "poppet-sergeant-highplus"
+        }
+      ]
+    }
+  ]
+}

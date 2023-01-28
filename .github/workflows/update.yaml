@@ -1,9 +1,10 @@
 name: update
 
 on:
-  push: # Trigger on push to master
-    branches:
-      - main
+  # push: # Trigger on push to master
+  #   branches:
+  #     - main
+  workflow_dispatch: # Trigger manually
 
 jobs:
   update-game-list:
