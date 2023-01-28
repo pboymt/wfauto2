@@ -21,6 +21,8 @@ jobs:
         run: npm start
       - uses: ncipollo/release-action@v1
         with:
+          commit: main
+          tag: latest
           artifacts: "games.json"
           token: ${{ secrets.GITHUB_TOKEN }}
       
