@@ -1,0 +1,48 @@
+name: update
+
+on:
+  push: # Trigger on push to master
+    branches:
+      - main
+
+jobs:
+  update-game-list:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js 18.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm ci
+      - name: Update game list
+        run: npm start
+      - name: Create release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: latest
+          # Release Date
+          release_name: Release ${{ github.event.inputs.release_date }}
+          draft: true
+          prerelease: false
+      - name: Upload generated files to release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./games.json
+          asset_name: games.json
+          asset_content_type: application/json
+      - name: Publish release
+        uses: eregon/publish-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          release_id: ${{ steps.create_release.outputs.id }}
+      

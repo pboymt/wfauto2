@@ -1,0 +1,29 @@
+{
+  "name": "wfauto2",
+  "version": "1.0.0",
+  "description": "世界弹射物语/弹射世界 的手机端护肝宝，基于 Auto.js Pro 9 开发。",
+  "main": "games.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pboymt/wfauto2.git"
+  },
+  "keywords": [],
+  "author": "pboymt",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/pboymt/wfauto2/issues"
+  },
+  "homepage": "https://github.com/pboymt/wfauto2#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "yaml": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}

@@ -1,0 +1,183 @@
+version: 1
+
+levels:
+  - title: 初级
+    id: normal
+  - title: 中级
+    id: medium
+  - title: 高级
+    id: high
+  - title: 高级+
+    id: highplus
+  - title: 超级
+    id: super
+  - title: 超级+
+    id: superplus
+  - title: 地狱
+    id: hell
+
+games:
+  - title: 八岐大蛇
+    name: orochi
+    active: true
+    levels:
+      - high
+      - highplus
+      - super
+  - title: 白虎
+    name: whitetail
+    active: true
+    levels:
+      - medium
+      - high
+      - highplus
+      - super
+  - title: 寄居蟹船长
+    name: hermit
+    active: true
+    levels:
+      - medium
+      - high
+      - highplus
+      - super
+  - title: 管理者
+    name: admin
+    active: true
+    levels:
+      - medium
+      - high
+      - highplus
+      - super
+  - title: 诅咒弧魔艾基尔
+    name: arch
+    active: true
+    levels:
+      - medium
+      - high
+      - highplus
+      - super
+  - title: 废墟魔像
+    name: golem
+    active: true
+    levels:
+      - medium
+      - high
+      - highplus
+      - super
+  - title: 不死王瑞西塔尔
+    name: regitare
+    active: true
+    levels:
+      - medium
+      - high
+      - highplus
+      - super
+  - title: 妖狐
+    name: fox
+    active: true
+    levels:
+      - medium
+      - high
+  - title: Sec-5200Li
+    name: sec
+    active: true
+    levels:
+      - medium
+      - high
+  - title: 风将獠牙骑士
+    name: aero
+    active: true
+    levels:
+      - medium
+      - high
+  - title: 潮汐巨妖
+    name: tidal
+    active: true
+    levels:
+      - medium
+      - high
+  - title: 废墟守卫·火
+    name: ignis
+    active: true
+    levels:
+      - medium
+      - high
+  - title: 雷霆树妖
+    name: lightning
+    active: true
+    levels:
+      - medium
+      - high
+  - title: 维·索拉斯
+    name: solas
+    active: true
+    levels:
+      - normal
+  - title: 伊尔格拉乌
+    name: kazehairyutyokyu
+    active: false
+    comment: 风废龙
+    levels:
+      - medium
+      - high
+      - highplus
+      - super
+  - title: 火废龙
+    name: irusavatika
+    active: false
+    comment: 火废龙
+    levels:
+      - medium
+      - high
+      - highplus
+      - super
+  - title: 水废龙
+    name: iruudoresutyoukyuu
+    active: false
+    comment: 水废龙
+    levels:
+      - medium
+      - high
+      - highplus
+      - super
+  - title: 雷废龙
+    name: iruudoresutyoukyuu
+    active: false
+    comment: 雷废龙
+    levels:
+      - medium
+      - high
+      - highplus
+      - super
+  - title: 光废龙
+    name: iruudoresutyoukyuu
+    active: false
+    comment: 光废龙
+    levels:
+      - medium
+      - high
+      - highplus
+      - super
+  - title: 伊尔昂斯拉
+    name: iruudoresutyoukyuu
+    active: true
+    comment: 暗废龙
+    levels:
+      - medium
+      - high
+      - highplus
+      - super
+  - title: 迷失遗忘者
+    name: cair-oblivion
+    active: true
+    comment: 虚假的人偶公主上级 BOSS
+    levels:
+      - high
+      - super
+  - title: 步兵人偶
+    name: poppet-sergeant
+    active: true
+    comment: 虚假的人偶公主下级 BOSS
+    levels:
+      - high
+      - highplus
