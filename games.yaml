@@ -160,7 +160,7 @@ games:
       - super
   - title: 伊尔昂斯拉
     name: iruudoresutyoukyuu
-    active: true
+    active: false
     comment: 暗废龙
     levels:
       - medium
@@ -169,15 +169,29 @@ games:
       - super
   - title: 迷失遗忘者
     name: cair-oblivion
-    active: true
+    active: false
     comment: 虚假的人偶公主上级 BOSS
     levels:
       - high
       - super
   - title: 步兵人偶
     name: poppet-sergeant
-    active: true
+    active: false
     comment: 虚假的人偶公主下级 BOSS
     levels:
       - high
       - highplus
+  - title: 哈里达尔
+    name: haridare
+    active: true
+    comment: 共誓黎明 上半 共斗 BOSS
+    levels:
+      - high
+      - highplus
+  - title: 星辰破坏者
+    name: starbreaker
+    active: true
+    comment: 共誓黎明 下半 共斗 BOSS
+    levels:
+      - high
+      - super
