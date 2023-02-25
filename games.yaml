@@ -183,15 +183,24 @@ games:
       - highplus
   - title: 哈里达尔
     name: haridare
-    active: true
+    active: false
     comment: 共誓黎明 上半 共斗 BOSS
     levels:
       - high
       - highplus
   - title: 星辰破坏者
     name: starbreaker
-    active: true
+    active: false
     comment: 共誓黎明 下半 共斗 BOSS
     levels:
       - high
+      - super
+  - title: 雷神
+    name: raikou
+    active: true
+    comment: 碧蓝幻想 联动 降临讨伐
+    levels:
+      - medium
+      - high
+      - highplus
       - super
