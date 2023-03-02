@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "date": "2023-02-25T02:49:23.056Z",
+  "date": "2023-03-02T13:54:21.952Z",
   "games": [
     {
       "text": "八岐大蛇",
@@ -168,6 +168,14 @@
         {
           "text": "高级",
           "id": "sec-high"
+        },
+        {
+          "text": "高级+",
+          "id": "sec-highplus"
+        },
+        {
+          "text": "超级",
+          "id": "sec-super"
         }
       ]
     },
@@ -233,23 +241,23 @@
       ]
     },
     {
-      "text": "雷神",
+      "text": "青之女王",
       "children": [
         {
           "text": "中级",
-          "id": "raikou-medium"
+          "id": "aoi-quenn-medium"
         },
         {
           "text": "高级",
-          "id": "raikou-high"
+          "id": "aoi-quenn-high"
         },
         {
           "text": "高级+",
-          "id": "raikou-highplus"
+          "id": "aoi-quenn-highplus"
         },
         {
           "text": "超级",
-          "id": "raikou-super"
+          "id": "aoi-quenn-super"
         }
       ]
     }

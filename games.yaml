@@ -84,6 +84,8 @@ games:
     levels:
       - medium
       - high
+      - highplus
+      - super
   - title: 风将獠牙骑士
     name: aero
     active: true
@@ -197,8 +199,17 @@ games:
       - super
   - title: 雷神
     name: raikou
-    active: true
+    active: false
     comment: 碧蓝幻想 联动 降临讨伐
+    levels:
+      - medium
+      - high
+      - highplus
+      - super
+  - title: 青之女王
+    name: aoi-quenn
+    active: true
+    comment: 期间限定讨伐
     levels:
       - medium
       - high
